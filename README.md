@@ -9,6 +9,6 @@ EXPLANATION FOR DEADLY SINS
 1.  Using hidden inputs or magic inputs when authenticating
 - This deadly sin is prevented by using middleware for authentications.
 2. Hard coding queries
-- This deadly sin is prevented because Laravel automatically modularizes the code which prevents sql injection and disruption due to user input.
+- This deadly sin is prevented because Laravel automatically modularizes the code. Since queries are not hard-coded sql injection and disruption due to user input is prevented.
 3. Not validating inputs passed by users
 - This deadly sin is prevented in the registration form because when a user inputs wrong data (e.g. "hello" under email address), the error is caught and the user is notified that the input is invalid.
